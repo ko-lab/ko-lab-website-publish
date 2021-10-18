@@ -1,0 +1,148 @@
+.library-desc {
+    font-size: 0.8rem;
+    margin: 0em 0.2em;
+}
+
+main {
+    min-height: 100vh;
+}
+
+div.navfooter {
+    text-align: center;
+    align-self: center;
+}
+svg {
+    width: 1rem;
+    vertical-align: middle;
+}
+
+@media only screen and (min-height: 800px) {
+    label#lightswitch {
+        display: block;
+        max-width: 5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+div.navfooter a {
+    border-bottom: solid 0px;
+}
+
+.intro-and-nav {
+    font-size: 0.9rem;
+}
+
+.intro-and-nav > div {
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.patterns {
+    overflow: visible;
+}
+
+.intro-and-nav > div  {
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+}
+
+.intro-and-nav > div::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+
+[for="themer"] {
+    vertical-align: super;
+    font-size: 0.8em;
+    margin: 0.5em 0em;
+    padding: 0.2em 0.75em;
+}
+
+h1 {
+    margin-bottom: -0.3rem;
+}
+
+h3:not([class="patterns-list"]) {
+    margin-bottom: -1.2rem;
+}
+
+img[src$='#floatright'] {
+	max-width: 40%;
+	width: auto\9*0.3; /* ie8 */
+	height: auto;
+	float: right;
+}
+
+img[src$='#floatleft'] {
+	max-width: 40%;
+	width: auto\9*0.3; /* ie8 */
+	height: auto;
+	float: left;
+}
+
+figcaption::before {
+        content: '';
+}
+
+
+
+.project-list-thumbnail {
+    display: inline-block;
+    box-sizing: border-box;
+    max-width: 20%;
+}
+
+@media only screen and (min-height: 900px) {
+    .project-list-thumbnail {
+        max-width: 230px;
+    }
+}
+
+.project-list-description {
+    max-width: 70%;
+    box-sizing: border-box;
+    margin: 0 0 0 5%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+@media only screen and (min-height: 900px) {
+    .project-list-description {
+        margin: 0 0 0 1rem;
+        max-width: calc(100% - 230px);
+    }
+}
+
+.project-list-title  {
+    overflow-wrap: break-word;
+    font-size: 1.66rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.h1-subtitle {
+    margin-top: 0.7rem;
+    margin-bottom: 1.3rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.tags {
+    margin-top: 1.7rem;
+    text-align: center;
+}
+
+.nolinkborder, .nolinkborder a {
+    border-bottom: 0px;
+}
+
+ul + ul {
+    margin-top: 0.5rem;
+}
+
+.special-event {
+    border-color: teal;
+    color: teal;
+}
